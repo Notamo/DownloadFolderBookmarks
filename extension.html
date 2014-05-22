@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My Awesome Popup!</title>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+
+  <body>
+	<div class="section">
+		<p id = "title"><b>Download Folders Bookmarks</b></p>
+	</div>
+	<div class="section">
+	  	<table id="FoldersTable">
+	  		<thead>
+		  		<tr>
+			  		<th class="nickCell" align="left">Name</th>
+			  		<th class="dirCell" align="left">Directory</th>
+			  		<th class="editCell"></th>
+		  		</tr>
+	  		</thead>
+	  		<tbody>
+	  			<!-- main folder data goes inserted here from popup.js-->
+	  		</tbody>
+	  	</table>
+
+	 </div>
+	 <div class="section">
+	  	<b>Add a new folder...</b><br>
+	  	Name: <input id="nameinput" type="text" name="Name"><br>
+	  	Directory: <input id="dirinput" type="text" name="Directory"><br>
+
+
+	    <button id="addFolder" class="button">Add Folder</button>
+	    <button id="clearData" class="button">Clear Data</button>
+	    <button id="about" class="button">about this extension</button>
+    </div>
+  </body>
+</html>

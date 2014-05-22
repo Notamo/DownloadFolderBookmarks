@@ -1,0 +1,68 @@
+body {
+	background: #111122;
+}
+.section, #title, .button {
+	font-family: 'Segoe UI', Tahoma, sans-serif;*/
+}
+
+/*The major sections of our page */
+.section {
+	margin: 4px;
+	background: #cccccc;
+	border-radius: 4px;
+	padding: 4px;
+	min-width: 500px;
+}
+/*our extension title*/
+#title {
+	text-align: center;
+	font-size:20px;
+	margin: 0px;
+}
+
+/* The table where all of our folders are displayed */
+#FoldersTable {
+	table-layout: fixed;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+/* cell for nicknames of the folders */
+.nickCell {
+	vertical-align: top;
+	word-wrap: break-word;
+	white-space: pre;
+	width: 150px;
+}
+/* cell housing the directory */
+.dirCell {
+	vertical-align: top;
+	word-wrap: break-word;
+	white-space: pre;
+}
+/* the third cell in our row where the delete and edit buttons are contained */
+.editCell {
+	vertical-align: top;
+	text-align: right;
+	white-space: nowrap;
+	width: 100px;
+}
+
+/* buttons on our page (and their states)*/
+.button {
+	padding:5px;
+	background-color: #dcdcdc;
+	border: 1px solid #666;
+	color:#000;
+	text-decoration:none;
+	margin: 4px;
+}
+.button:hover {
+	color:#f00;
+}
+.button:active {
+	color:#f00;
+}
+.button:focus {
+	color:#f00;
+}

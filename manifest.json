@@ -1,0 +1,19 @@
+{
+  "name": "Download Folder Bookmarks",
+  "description": "Save multiple folders and download files directly to them",
+  "version": "0.7",
+  "manifest_version": 2,
+  "icons": {"128": "folder_download.png" },
+  "permissions": [
+  	"contextMenus",
+  	"downloads"
+  ],
+  "browser_action": {
+  		"default_icon": "folder_download.png",
+  		"default_title": "Download Folder Bookmarks",
+  		"default_popup": "extension.html"
+  	},
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
