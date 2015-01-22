@@ -13,9 +13,7 @@ and some javascript, and solves a little pet peeve of mine where i've got got
 several folders spread all around my computer where i have to relocate my
 downloads to after I download them.
 
-Disclaimer: This is my VERY first project using javascript/json/css/etc. and is
-thus EXTREMELY likely to be comprised of crap code. Venture in and use at
-your own risk.
+Note: This is my first project using javascript/json/css/etc. and may have some novice-level code. Let me know if there is something I could do better!
 
 Operation: 
 
