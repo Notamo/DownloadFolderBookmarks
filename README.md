@@ -1,23 +1,23 @@
 DownloadFolderBookmarks
 =======================
 
-A Google Chrome extension which allows you to save multiple download locations and download files directly to them
+A Google Chrome extension which allows you to save multiple download locations and download files directly to them.
 
-This project is under the MIT license. See "LICENSE" file for details
+This project is under the MIT license. See "LICENSE" file for details.
 
 Icon from "Hand Drawn Web Icon Set" by Pawel Kadysz  of 177DESIGNS (http://www.177designs.com) is licensed under the Creative Commons License. Found here: https://www.iconfinder.com/icons/66792/download_folder_icon
 
 Description:
-This is a small side-project of mine for experimenting with Google extensions,
-and some javascript, and solves a little pet peeve of mine where i've got got
-several folders spread all around my computer where i have to relocate my
-downloads to after I download them.
+This is a small side-project of mine for experimenting with Google extensions
+and some javascript, which solves a little pet peeve of mine where I have
+several folders spread all around my computer that i have to relocate my
+files to after I initially download them.
 
-Note: This is my first project using javascript/json/css/etc. and may have some novice-level code. Let me know if there is something I could do better!
+Note: This is my first project using javascript/json/css/etc. Let me know if there is something I could do better!
 
 Operation: 
 
-This project will utilize the context menus, and instead of using
+This project utilizes context menus, and instead of using
 right-click->save as.. the user will use a custom section where they can
 choose which folder to save the selected file/link to. The user can also
 add new folders to download to through this menu, and remove folders as
